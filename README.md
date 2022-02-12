@@ -5,7 +5,7 @@ This is a CLI Ruby application that allows you to look up local (state-based) re
 Request an API key from <a href="https://www.propublica.org/datastore/api/propublica-congress-api">Propublica's Data Store</a>. (*Currently, keys are provisioned quickly.)<br>
 Fork and clone this repository to your machine.<br>
 Use command $ touch .env to create an enviroment file to house your API key. <br>
-    legislators_key="<YOUR API KEY HERE>"<br>
+    legislators_key="YOUR API KEY HERE"<br>
 Use command $ bundle install to install dependencies.<br>
 Use command $ bin/run and follow command prompts.<br>
 Pull requests welcomed!<br>
