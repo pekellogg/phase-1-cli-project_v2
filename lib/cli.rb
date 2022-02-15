@@ -25,7 +25,7 @@ class Cli
 
     def self.welcome
         puts "Hello, citizen!"
-        puts "Welcome to FedLookup, an app for voters to find the representatives in their state."
+        puts "Welcome to JustCivicEngagement, an app for voters to find the representatives in their state."
         puts ""
         puts ""
     end
