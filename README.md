@@ -1,5 +1,5 @@
 <b>JustCivicEngagement</b><br>
-This is a CLI Ruby application that allows American citizens look up local (state-based) representative contact and voting information. All legislators within are members of the U.S. 117th Congress. Votes are available from a rolling 30 day look-back period.<br>
+This is a CLI Ruby application that allows American citizens to look up local (state-based) representative contact and voting information. All legislators within are members of the U.S. 117th Congress. Votes are available from a rolling 30 day look-back period.<br>
 
 <b>Installation</b><br>
 Request an API key from <a href="https://www.propublica.org/datastore/api/propublica-congress-api">Propublica's Data Store</a>. (*Currently, keys are provisioned quickly.)<br>
