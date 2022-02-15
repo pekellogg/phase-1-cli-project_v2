@@ -25,9 +25,9 @@ class Cli
 
     def self.welcome
         puts "Hello, citizen!"
-        puts "Welcome to JustCivicEngagement, an app for voters to find the representatives in their state."
-        puts ""
-        puts ""
+        puts "Welcome to JustCivicEngagement..."
+        puts "an app for voters to find their elected representatives"
+        puts "and the recent legislation those reps have voted on."
     end
 
     def self.menu
@@ -99,7 +99,7 @@ class Cli
     end
 
     def self.bye
-        puts "Thanks for using FedLookup!"
+        puts "Thanks for using JustCivicEngagement!"
         exit(0)
     end
 end
