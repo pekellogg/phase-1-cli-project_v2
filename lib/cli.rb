@@ -24,10 +24,14 @@ class Cli
     end
 
     def self.welcome
+        puts ""
+        puts ""
         puts "Hello, citizen!"
         puts "Welcome to JustCivicEngagement..."
         puts "an app for voters to find their elected representatives"
         puts "and the recent legislation those reps have voted on."
+        puts ""
+        puts ""
     end
 
     def self.menu
@@ -60,6 +64,8 @@ class Cli
     def self.legislators
         user_state = Cli.state
         if state = State.locate(user_state)
+            puts ""
+            puts ""
             puts "In the state of #{state.name}, your representatives are..."
             state.legislators.each{|i|i.contact_card}
         else

@@ -23,13 +23,24 @@ class Legislator
     end
 
     def contact_card
-        puts ""
-        puts "#{self.title} #{self.first_name} #{self.last_name}"
-        puts "#{self.office} | #{self.phone}"
-        puts ""
+        if self.leadership_role && self.leadership_role != ""
+            puts ""
+            puts "#{self.leadership_role} #{self.first_name} #{self.last_name}"
+            puts "#{self.office} | #{self.phone}" if self.office && self.phone
+            puts ""
+        else
+            puts ""
+            puts "#{self.title} #{self.first_name} #{self.last_name}"
+            puts "#{self.office} | #{self.phone}" if self.office && self.phone
+            puts ""
+        end
     end
 
     def rep_name_title
-        "#{self.first_name} #{self.last_name}, #{self.title}"
+        if self.leadership_role && self.leadership_role != ""
+            "#{self.first_name} #{self.last_name}, #{self.leadership_role}"
+        else
+            "#{self.first_name} #{self.last_name}, #{self.title}"
+        end
     end
 end
