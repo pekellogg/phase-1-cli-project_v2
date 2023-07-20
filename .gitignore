@@ -1,2 +1,5 @@
 # Ignore API keys
 *.env
+
+# API ping testing
+scratch.js
