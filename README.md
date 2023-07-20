@@ -9,7 +9,7 @@ This is a CLI Ruby application that allows users to find their WA representative
 3. Create a .dotenv enviroment file to house your API key using below format. _Make sure to add this key to your .gitignore._
 
    ```bash
-   legislators_key=[INSERT API KEY]
+   LEGISLATORS_KEY=[INSERT API KEY]
    ```
 
 4. Install project dependencies.
@@ -21,7 +21,7 @@ This is a CLI Ruby application that allows users to find their WA representative
 5. Start CLI App and follow prompts.
 
    ```bash
-   bin/run
+   ruby bin/run
    ```
 
 Pull requests with constructive criticism welcomed.
