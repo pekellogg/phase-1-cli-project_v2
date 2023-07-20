@@ -1,24 +1,44 @@
-<b>JustCivicEngagement</b><br>
-This is a CLI Ruby application that allows American citizens to look up local (state-based) representative contact and voting information. All legislators within are members of the U.S. 117th Congress. Votes are available from a rolling 30 day look-back period.<br>
+# JustCivicEngagement
 
-<b>Installation</b><br>
-Request an API key from <a href="https://www.propublica.org/datastore/api/propublica-congress-api">Propublica's Data Store</a>. (*Currently, keys are provisioned quickly.)<br>
-Fork and clone this repository to your machine.<br>
-Use command $ touch .env to create an enviroment file to house your API key. <br>
-    legislators_key="YOUR API KEY HERE"<br>
-Use command $ bundle install to install dependencies.<br>
-Use command $ bin/run and follow command prompts.<br>
-Pull requests welcomed!<br>
+This is a CLI Ruby application that allows users to find their WA representatives and voting information. _All legislators within are members of the U.S. 117th Congress. Votes are available from a rolling 30 day look-back period._
 
-<b>License</b><br>
-This application is available as open source under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.<br>
+## Installation and Contributions
 
-<b>API Citation</b><br>
-The data in this app have been unmodified are provided by ProPublica.<br>
-ProPublica requires us to let you know that these data may contain errors and omissions from time to time.<br>
-'ProPublica Congress API' by ProPublica is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 United States</a>.<br>
-URI: https://api.propublica.org/congress/v1<br>
+1. Request an API key from [Propublica's Data Store](https://www.propublica.org/datastore/api/propublica-congress-api).
+2. Fork and clone this repository.
+3. Create a .dotenv enviroment file to house your API key using below format. _Make sure to add this key to your .gitignore._
 
-<b>There's More ~</b><br>
-Full <a href="https://projects.propublica.org/api-docs/congress-api/">documentation</a> is available if you're curious about what the ProPublica Congress API offers beyond the scope of this project.
+   ```bash
+   legislators_key=[INSERT API KEY]
+   ```
 
+4. Install project dependencies.
+
+   ```bash
+   bundle install
+   ```
+
+5. Start CLI App and follow prompts.
+
+   ```bash
+   bin/run
+   ```
+
+Pull requests with constructive criticism welcomed.
+
+### Resources
+
+#### Propublica
+
+The data in this app have been unmodified are provided by ProPublica.
+Data may contain errors and omissions from time to time.
+
+ProPublica Congress API [Docs](https://projects.propublica.org/api-docs/congress-api/)
+
+V1 Congress [Endpoint](https://api.propublica.org/congress/v1)
+
+#### License
+
+"ProPublica Congress API" licensed under [Creative Commons](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode) Attribution-NonCommercial-NoDerivs 3.0 United States
+
+This application is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
